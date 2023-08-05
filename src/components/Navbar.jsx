@@ -19,7 +19,7 @@ const Navbar = () => {
                     
                 </div>
                 {mobile && 
-                 <div className="fixed top-0 left-0 h-full w-full bg-white z-10">
+                 <div className="fixed top-0 left-0 h-full w-full bg-white z-10 sm:hidden">
                     <div className="navbar p-2">
                         <p className="logo">Logo</p>
                         <AiOutlineClose onClick={()=>setmobile(false)} className='w-6 h-6'/>
