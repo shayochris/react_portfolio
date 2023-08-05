@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-lg{
+    @apply w-full sm:w-[90%] lg:w-[60%] 2xl:w-[50%] mx-auto p-2
+}
+.navbar{
+    @apply w-full  mx-auto  flex  justify-between items-center pb-2 px-2 
+}
+.navlink{
+    @apply px-4 py-2 hover:text-blue-600 font-semibold capitalize
+}
+.mobile-navlink{
+    @apply px-4 py-2 font-semibold capitalize w-full block  hover:bg-gray-200 text-gray-600
+}
+.navlink-active{
+    @apply px-4 py-2 text-blue-600 font-semibold capitalize
+}
+.button{
+    @apply text-white text-sm rounded-lg px-4 py-2
+}
+.form{
+    @apply p-4 w-[80%] sm:w-[60%] lg:w-[30%] mx-auto
+}
+.bordered-form{
+    @apply p-4 w-[90%] lg:w-[80%]  mx-auto border-[1px] border-gray-300 rounded-lg shadow-lg
+}
+.form-title{
+    @apply text-blue-500 font-semibold py-2 text-lg
+}
+.form-link{
+    @apply text-blue-500 text-sm hover:text-blue-700 block w-full text-center
+}
+.input{
+    @apply w-full outline-none border-[1px] border-gray-300 rounded-lg text-sm p-2 focus:border-[1px] focus:border-blue-500
+}
+.rounded-input{
+    @apply w-full outline-none border-[1px] border-gray-300 rounded-full text-sm px-4 py-2 focus:border-[1px] focus:border-blue-500
+}
+.box-input{
+    @apply w-full outline-none border-[1px] border-gray-300 text-sm p-2 focus:border-[1px] focus:border-blue-500
+}
+.submit-button{
+    @apply w-full p-2 text-sm bg-blue-500 text-white rounded-lg active:bg-blue-700
+}
+.flex-wrapper{
+    @apply mt-2 flex flex-col sm:flex-row
+}
+.text-div{
+    @apply h-[400px] w-full px-2 sm:px-0 py-2 flex flex-col justify-center
+}
+.heading{
+    @apply font-semibold text-3xl capitalize mb-4
+}
+.image-div{
+    @apply w-full max-h-[400px]
+}
+.image-div-lg{
+    @apply w-full max-h-[400px] hidden sm:block
+}
+.image-div-sm{
+    @apply w-full max-h-[400px] sm:hidden 
+}
+.logo{
+    @apply sm:text-2xl text-xl text-blue-500 font-semibold
+}
+.card{
+    @apply p-4 border-[1px] border-gray-200 rounded-lg 
+}
+.avatar{
+    @apply rounded-full bg-gray-200 overflow-hidden
+}
+
