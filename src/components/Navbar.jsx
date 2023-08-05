@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <h2 className="logo">logo</h2>
                 <ul className="hidden sm:flex">
-                    <li><Link to="/home" className="navlink">Home</Link></li>
+                    <li><Link to="/" className="navlink">Home</Link></li>
                     <li><Link to="/about" className="navlink">About</Link></li>
                     <li><Link to="/contact" className="navlink">Contact</Link></li>
                     <li><Link to="/services" className="navlink">Services</Link></li>
